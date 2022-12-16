@@ -1,0 +1,86 @@
+import React from 'react'
+import './portfolio.css'
+import IMG1 from '../../assets/portfolio1.jpg'
+import IMG2 from '../../assets/portfolio2.jpg'
+import IMG3 from '../../assets/portfolio3.jpg'
+import IMG4 from '../../assets/portfolio4.jpg'
+import IMG5 from '../../assets/portfolio5.jpg'
+import IMG6 from '../../assets/portfolio6.jpg'
+
+
+//Array
+
+const data = [
+  {
+    id: 1,
+    image: IMG1,
+    title: 'Keeper App React',
+    github: 'https://github.com/samarthghadi/keeper-app',
+    demo: 'https://qj6vsy.csb.app/'
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: 'ToDoList React',
+    github: 'https://github.com/samarthghadi/todolist-react',
+    demo: 'https://react-todo-9rxf.onrender.com/'
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Drum Kit Using JavaScript',
+    github: 'https://github.com/samarthghadi/drum',
+    demo: 'https://samarthghadi.github.io/drum/'
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Tindog Made Using Bootstrap',
+    github: 'https://github.com/samarthghadi/tindog',
+    demo: 'https://samarthghadi.github.io/tindog/'
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Dice Game Using JavaScript',
+    github: 'https://github.com/samarthghadi/dice',
+    demo: 'https://samarthghadi.github.io/dice/'
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: 'Ecommerce Using WordPress',
+    github: 'https://github.com/samarthghadi',
+    demo: 'https://samarthghadi.altervista.org/'
+  }
+]
+
+const Portfolio = () => {
+  return (
+    <section id='portfolio'>
+      <h5>My recent Works</h5>
+      <h2>Portfolio</h2>
+
+      <div className="container portfolio__container">
+         {
+          data.map(({id, image, title, github, demo}) => {
+            return (
+              <article key={id} className='portfolio__item'>
+              <div className='portfolio__item-image'>
+                <img src={image} alt={title} />
+              </div>
+              <h3>{title}</h3>
+              <div className='portfolio__item-cta'>
+                <a href={github} className='btn' target='_blank'>GitHub</a>
+                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+              </div>
+         </article>
+            )
+          })
+         }
+      </div>
+    </section>
+  )
+}
+
+export default Portfolio
