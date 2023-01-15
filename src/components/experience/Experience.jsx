@@ -36,14 +36,14 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>Bootstrap</h4>
+                <h4>Bootstrap | Material UI</h4>
               </div>
             </article>
 
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-              <h4>ReactJS</h4>
+              <h4>ReactJS | AngularJS</h4>
               </div>
             </article>
 
