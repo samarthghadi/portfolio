@@ -22,8 +22,8 @@ const data = [
     id: 2,
     image: IMG2,
     title: 'ToDoList React',
-    github: 'https://github.com/samarthghadi/todolist-react',
-    demo: 'https://react-todo-9rxf.onrender.com/'
+    github: 'https://github.com/samarthghadi/todolistv2',
+    demo: 'https://todolistv2-i3gg.onrender.com/'
   },
   {
     id: 3,
