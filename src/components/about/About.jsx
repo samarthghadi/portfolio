@@ -22,7 +22,7 @@ const About = () => {
           <div className='about__cards'>
             <article className='about__card'>
               <ImLocation2 className='about__icon'/>
-              <h5>Kitchener, Ontario</h5>
+              <h5>Cambridge, Ontario</h5>
                 <small>Canada</small>
             </article>
             

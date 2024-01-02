@@ -6,6 +6,7 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
 import IMG6 from '../../assets/portfolio6.jpg'
+import IMG7 from '../../assets/portfolio7.jpg'
 
 
 //Array
@@ -27,27 +28,34 @@ const data = [
   },
   {
     id: 3,
+    image: IMG7,
+    title: 'Weather App',
+    github: 'https://github.com/samarthghadi/weather-app',
+    demo: 'https://weather-app-ymk2.onrender.com/'
+  },
+  {
+    id: 4,
     image: IMG3,
     title: 'Drum Kit Using JavaScript',
     github: 'https://github.com/samarthghadi/drum',
     demo: 'https://samarthghadi.github.io/drum/'
   },
   {
-    id: 4,
+    id: 5,
     image: IMG4,
     title: 'Tindog Made Using Bootstrap',
     github: 'https://github.com/samarthghadi/tindog',
     demo: 'https://samarthghadi.github.io/tindog/'
   },
   {
-    id: 5,
+    id: 6,
     image: IMG5,
     title: 'Dice Game Using JavaScript',
     github: 'https://github.com/samarthghadi/dice',
     demo: 'https://samarthghadi.github.io/dice/'
   },
   {
-    id: 6,
+    id: 7,
     image: IMG6,
     title: 'Ecommerce Using WordPress',
     github: 'https://github.com/samarthghadi',

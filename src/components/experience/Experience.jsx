@@ -36,14 +36,14 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>Bootstrap</h4>
+                <h4>Bootstrap|Material</h4>
               </div>
             </article>
 
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-              <h4>ReactJS</h4>
+              <h4>ReactJS | AngularJS</h4>
               </div>
             </article>
 
@@ -70,27 +70,6 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-              <h4>NodeJS</h4>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-              <h4>MongoDB</h4>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
-              <h4>MySQL</h4>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
-              <div>
               <h4>Java</h4>
               </div>
             </article>
@@ -98,7 +77,35 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-              <h4>C#</h4>
+              <h4>JavaScript/TypeScript</h4>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+              <h4>MySQL | PL/SQL</h4>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+              <h4>NodeJS</h4>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+              <h4>Python</h4>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+              <h4>MongoDB</h4>
               </div>
             </article>
           </div>
